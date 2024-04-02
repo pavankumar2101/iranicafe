@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/******************************** Navbar section******************* */
+
+.navbar{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 30px 0; 
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo h1{
+    font-size: 30px;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.nav-links p{
+    font-size: 24px;
+    color: white;
+}
+
+/******************************** Body Section *******************************/
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.div1 h1{
+    font-size: 50px;
+    color: white;
+}
+
+.div1 img{
+    width: 30%;
+}
+
+.div1 button{
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+
+.div2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 100px;
+
+}
+
+.div2-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.div2-content h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.div2-content p{
+    font-size: 24px;
+    color: white;
+}
+
+.div2-content span{
+    display: block;
+}
+
+.div2-content button{
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+.div2-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2-image img{
+    width: 60%;
+}
+
+.div3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0 50px;
+}
+
+.div3-heading{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.div3-heading h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.div3-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    border: 2px solid goldenrod;
+    padding: 50px 80px;
+}
+
+.card h3{
+    font-size: 30px;
+    color: white;
+}
+
+.card button{
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.items p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.div4{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 100px;
+}
+
+.div4-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.div4-content h1{
+    font-size: 35px;
+    color: white;
+}
+
+.div4-content span{
+    color: goldenrod;
+}
+
+.div4-content p{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+/* *******************footer section************************ */
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0;
+
+}
+
+.footer p{
+    font-size: 20px;
+    color: white;
+}
+
+.footer span{
+    color: goldenrod;
+}
+
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.line hr{
+    border: 1px solid goldenrod;
+}
